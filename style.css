@@ -1,16 +1,20 @@
 html {
 			font-family: 'Oswald', Verdana, Arial,sans-serif;
 			text-align: center;
+			background-color: rgb(247,112,34);
+			background-opacity: 0.2;
 	}
 .header { 
 			font-weight: 500;
 		 }
 .list1 {
-    		border: 1px red solid;
+    		border: 1px rgb(185,63,8) solid;
     		border-radius: 15px;
     		padding: 10px;
     		font-weight: 300;
-			list-style-position: inside;
+		color: #FFFFFF;
+		list-style-position: inside;
+		background-color: rgb(208,76,6);
 		}
 .list2 {
 			border: 1px red dashed;
@@ -21,3 +25,15 @@ html {
 a {
 			text-decoration: none;
 	}
+img {
+	width: 100%;
+}
+figcaption {
+	font-weight: 400;
+}
+h1, h2 {
+	background-color: rgb(185,63,8);
+}
+.sentence {
+	background-opacity: 1.0;
+}
