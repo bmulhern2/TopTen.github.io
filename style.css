@@ -1,0 +1,23 @@
+html {
+			font-family: 'Oswald', Verdana, Arial,sans-serif;
+			text-align: center;
+	}
+.header { 
+			font-weight: 500;
+		 }
+.list1 {
+    		border: 1px red solid;
+    		border-radius: 15px;
+    		padding: 10px;
+    		font-weight: 300;
+			list-style-position: inside;
+		}
+.list2 {
+			border: 1px red dashed;
+			border-radius: 15px;
+			padding: 10px;
+			list-style: none;
+	}
+a {
+			text-decoration: none;
+	}
