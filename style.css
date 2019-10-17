@@ -1,9 +1,19 @@
+* {
+	margin:0;
+	padding:0;
+}
 html {
 			font-family: 'Oswald', Verdana, Arial,sans-serif;
 			text-align: center;
 			background-color: rgb(247,112,34);
 			background-opacity: 0.2;
 	}
+article {
+	column-count:2;
+	width:200px;
+	column-gap:4em;
+	item-align:center;
+}
 .header { 
 			font-weight: 500;
 		 }
@@ -26,6 +36,7 @@ a {
 			text-decoration: none;
 	}
 img {
+	border: 1em solid white;
 	width: 100%;
 }
 figcaption {
@@ -36,4 +47,16 @@ h1, h2 {
 }
 .sentence {
 	background-opacity: 1.0;
+}
+footer {
+	background: rgb(100,0,100);
+	text-align:center;
+	padding: 20px;
+]
+#main {
+}
+figure {
+	margin: 10px;
+	padding-top:0;
+	float: left;
 }
